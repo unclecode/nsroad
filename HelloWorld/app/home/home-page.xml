@@ -1,0 +1,14 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo"  
+    loaded="pageLoaded"
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <GridLayout>
+        <!-- Add your page content here -->
+        <Image src="~/images/wink.png" width="100" height="100" stretch="aspectFill"></Image>
+    </GridLayout>
+</Page>

@@ -12,7 +12,14 @@ function onNavigatingTo(args) {
 }
 
 exports.pageLoaded = function() {
-    console.log("Hello World");
+    console.log("Hello Worldzz");
 };
+
+exports.goItem = function(args) {
+    const image = args.object;
+    const page = image.page;
+    page.frame.navigate("item/item-page")
+
+}
 
 exports.onNavigatingTo = onNavigatingTo;

@@ -2,8 +2,9 @@
     <ActionBar class="action-bar">
         <Label class="action-bar-title" text="Home"></Label>
     </ActionBar>
-    <GridLayout rows = "auto,*">
+    <GridLayout rows = "auto,auto,*">
         <Label class = "lbl" text="Hooray! Home Page loaded!" row = "0" style = ""/>
-        <Image src="~/images/wink.png" class = "spin" row = "1" width="100" height="100" stretch="aspectFill"></Image>
+        <Label class = "lbl" text="{{token}}" row = "1" style = ""/>
+        <Image src="~/images/wink.png" tap = "goItem" class = "spin" row = "2" width="100" height="100" stretch="aspectFill"></Image>
     </GridLayout>
 </Page>

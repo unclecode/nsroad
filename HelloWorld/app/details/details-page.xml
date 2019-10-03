@@ -1,0 +1,6 @@
+<Page class="page"  xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="Details" class="action-bar"></ActionBar>
+    <StackLayout>
+        <Label text="details" />
+    </StackLayout>
+</Page>

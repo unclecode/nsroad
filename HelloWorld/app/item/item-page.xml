@@ -1,0 +1,9 @@
+<Page class="page" loaded="pageLoaded"  xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="Item" class="action-bar"></ActionBar>
+
+    <StackLayout>
+        <Label text="Item Details"/>
+        <Button text = "Details" tap = "goDetails" />
+        <Button text = "Back" tap = "goBack" />
+    </StackLayout>
+</Page>
